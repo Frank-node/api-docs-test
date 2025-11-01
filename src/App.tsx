@@ -10,6 +10,7 @@ function App() {
   return (
     <ApiReferenceReact
       configuration={{
+        //@ts-ignore
         spec: {
           // url: 'https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml',
           url:'/openapi.yaml',
